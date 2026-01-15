@@ -1,4 +1,4 @@
-# Idk... Hit me up if you wanna help out, or wanna learn some junk about Swift and Apple dev stuff.
+# Idk... Hit me up if you wanna help out, chat, or learn some junk about Swift and Apple dev stuff.
 
 TODO: Actually sort this out if there's ever any interest
 
