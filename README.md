@@ -1,56 +1,46 @@
 #  EmM
-// Subtitle here
+Eventually a subtitle will go here.
 
 ## Overview
 
-Eventually that goes here...
+Eventually an "overview" will go here.
 
-## Disclaimers
-- This is a mess. I am, for the time being, also a mess. It's day one on this, I've read enough to cause me a lot of pain, and I wasn't doing great to begin with.
-- That said, I do intend to have this shipshape very soon.
-- If you want a clean, organized look at where this trainwreck is going, check back in a week or so, idk.
+## A11y Commitment
+### My commitment to making my public code repositories accessible:
+If you'd prefer I change something here to enable your contributions, or to ease your navigation of my this codebase, please let me know. I'm happy to accommodate, I know these platforms well, and I'm confident that we'll easily figure something out. I'm crazy enough to think I can solve every problem in tech given the chance, except for the industry's chronic abandonment of accessibility and our community in general. I can make adjustments to whatever you like without much effort.
+### The delay for this brand new repository while I'm housing unstable:
+Given my situation right now, I've had to make a carveout. I needed this to be public asap, so it's a wreck for the moment. I won't be making an inaccessible repo public again, but this was an exception I felt necessary for the time being. I do apologize for this, and I wish I could've cleaned this up beforehand like I'm doing with my local and private repositories before sharing them.
+
+## Disclaimers and The Awful State of Things:tm:
+- This is a mess. I am, for the time being, also a mess. If I can get a safe place to crash and basic access to healthcare again, maybe I'll get more of my projects cleaned up and start developing in the open again. At this point it seems unlikely, but them's the breaks with no societal safety net.
+- That said, I do intend to have this shipshape very soon. My eyes and brain are tired of physically hurting to keep learning and working on the stuff I love, so I need some way to read/listen to docs that doesn't physical hurt me or I'm going back to retail or tradework, and I don't really want that.
+- Anyway, if you want a clean, organized look at where this trainwreck is going, check back in a week or so, idk. I feel like shit today, so not much is gonna get done. Sorry not sorry, no pay gets no consistent work, and I can't exactly pay myself.
+
 - When working solo, I just push to origin/main. Unless it's tagged as a release, don't expect to just fork -> clone -> build without errors or issues.
-- I often use assistive tech, I'm a stuttery mofo, and I will have days I'm way too sick to code or speak or answer emails. Meet me where I'm at, and I bring plenty of skill, patience, and willingness to teach to the table to make up for it.
-- I don't expect much interest in this, but if you would like to help or chat, feel free. I'll flesh out the CONTRIBUTORS.md when that becomes relevant.
-TODO: make that an md link...
-- Yes, I'm using "Models", "Views", and "Controllers" for SwiftUI (well, hybrid soon). Everything is MVC if you think about it, and MVVM/MVU/whatever are harder to say for me, personally.
+- I often use assistive tech, I'm a stuttery mofo, and I will have days I'm way too sick to code or speak or type or some combination of those. Meet me where I'm at, and I bring plenty of skill, patience, and willingness to teach to the table to make up for it.
+- To the tech companies who don't care about AX, you cause untold suffering every day you ignore the millions of us suffering in a world shaped by your inventions and decisions. Do better.
+- I don't expect much interest in this, but if you would like to help out or chat, feel free to reach out. Open an issue, or uhhh, idk. I'll add my DIscord or something here at some point. And I'll flesh out the CONTRIBUTORS.md if that ever becomes relevant.
+TODO: make that filename an md link...
+- Yes, I'm using "Models", "Views", and "Controllers" for SwiftUI (well, hybrid soon). Design patterns are fake anyway, and MVVM grouping is for people who don't care about those of us with disabilities, or with preference for keyboard nav otherwise. I have enough obstacles already, I'm not about to type out an extra four chars all day every day for free to move around your codebase.
 
-## Milestones
-### Hopefully these will be larger milestones soon...
+## Priorities
 
-###Day One: 01/15/26
-
-####TODO:
-
-####DONE:
-Find some motivation again since reaching out is dumb and doesn't work: done
-Contemplate concept just enough to start writing *something*: done
-Read too many grabage formatted docs from five hundred sources: done, painfully
-Build an initial skeleton: done, sorta
-Flesh this out a bit: done, poorly, sorta
-
-####DEFER:
-Organize this disaster of a readme
-finally make a template for this sort of thing that maps to Things.app
-make an importer for that, actually
-Import readme to Things.app so I can keep track of it properly
-Determine new milestones for tomorrow: defer to tomorrow
-
-####VERDICT:
-Very good, considering how I've been feeling lately. Set myself up pretty well for continued work on this tomorrow. Need to sleep on some decisions, and spin the wireframes and storyboards around in my head a bit, solidify the SwiftUI Layout I want for the content, as well as the HTML DOM structure I want for it, then figure out the initial transforms from DocC > DTO > SwiftUI Content/Detail | HTML DOM.
-
-####Tomorrow:
-01/16/26
-
-- Determine tasks for today: TODO
-- Organize this disaster of a readme, using actual markdown: TODO
-- Import readme to Things.app so I can keep track of it properly: TODO
+- Organize and format this file.
+- Fix the myriad AX issues with this codebase before continuing much further.
+- Add section regarding navgating this repository.
+- Audio for overview/navigationd.
+- Audio for page as natlang.
+- Audio for page as typed.
+- Solidify architecture plan and write that up.
+- Throw together a decent Arch diagram as well, maybe with SwiftCharts to try that out. I've heard it's kinda grabo vs just plotting things in AppKit with math like a caveman, but I wanna know for myself.
+- Spellcheck all of this
 
 ## Random other stuff
 
 -Build a decent LLM-powered tool to organize stuff like this for me after I write it, according to the way I like to think about coding projects
 -finally make a template for this sort of thing that maps to Things.app
 -make an importer for that, actually. then add it to the auto-organizer that works in the template
+-spellcheck XCSourceEditorExtension or git pre-commit workflow or something. Github Action for it if contributors are ever a thing.
 
 
 ## Key Specs

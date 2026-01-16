@@ -41,6 +41,7 @@ extension EMM.Views {
 					EMMContentPane()
 				},
 				// TODO: daydream some layouts/contexts and flows for this as well...
+				// Might start with "other sources for this topic" and then go from there...
 				detail: {
 					EMMDetailPane()
 				}

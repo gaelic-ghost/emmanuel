@@ -1,8 +1,11 @@
-# Idk... Hit me up if you wanna help out, chat, or learn some junk about Swift and Apple dev stuff.
+# Resources for Contributors
+Idk... Hit me up if you wanna help out, chat, or learn some junk about Swift and Apple dev stuff.
 
-TODO: Actually sort this out if there's ever any interest
+## TODO: -
+- Actually flesh this out upon any interest in the project.
+- Idk... figure this out too
 
-Contribution guide
+## Other H2 Section
 
 Setting up your tooling/ide
 

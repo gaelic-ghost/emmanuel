@@ -8,7 +8,7 @@
 //import AppKit
 import Foundation
 //import SwiftUI
-//import Observation
+import Observation
 import WebKit
 
 /*
@@ -32,4 +32,5 @@ import WebKit
 /// Primary Service Object for EMM. Creates and manages WebPages and whatnot...
 @Observable final class EMMWebService {
 	
+		
 }
