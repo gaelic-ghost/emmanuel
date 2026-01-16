@@ -1,9 +1,20 @@
 #  EmM
 Eventually a subtitle will go here.
 
+## Navigating this Repository
+
+TODO: -
+
+## Audio Resources
+
+TODO: - 
+
 ## Overview
 
 Eventually an "overview" will go here.
+
+## Architecture Diagrams, Flows, Etc.
+
 
 ## A11y Commitment
 ### My commitment to making my public code repositories accessible:
@@ -26,8 +37,10 @@ TODO: make that filename an md link...
 ## Priorities
 
 - Organize and format this file.
+- Add frag links for nav
 - Fix the myriad AX issues with this codebase before continuing much further.
 - Add section regarding navgating this repository.
+- Build out a site to host my own docs on that's actually accessible. Maybe a companion project to this app.
 - Audio for overview/navigationd.
 - Audio for page as natlang.
 - Audio for page as typed.
