@@ -24,6 +24,8 @@ import WebKit
 
  */
 
+// Investigate new WebKit API in OS 26.2 for extracting content from DOM -> Transferable, see how good/bad the extraction is, though I will still need my own closures/script for it anyway on versions < 26.2
+
 /*
  
  */
