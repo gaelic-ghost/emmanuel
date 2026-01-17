@@ -10,9 +10,10 @@ import Foundation
 /// An...
 extension EMM {
 	/*
-	 Somethin g or other...
+	 Something or other...
 	 */
-	/// A namespace for EMM Controllers, Services, View-Models, etc.
+	/// A namespace for EmM Controllers, Services, etc.
+	/// *"The Business Logic Classes"*
 	enum Controllers {
 		
 	}

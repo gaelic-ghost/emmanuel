@@ -10,6 +10,8 @@ import SwiftUI
 ///
 extension EMM.Views {
 	
+	// TODO: Maybe enum Primary..? Not sure yet...
+	
 	/*
 	 */
 	/// Main Window Type for the App.
@@ -34,16 +36,16 @@ extension EMM.Views {
 				// TODO: Pass $ through
 				// TODO: decide on nav drive setup
 				sidebar: {
-					EMMSidebarPane()
+					SidebarPane()
 				},
 				// TODO: consider tabbar options
 				content: {
-					EMMContentPane()
+					ContentPane()
 				},
 				// TODO: daydream some layouts/contexts and flows for this as well...
 				// Might start with "other sources for this topic" and then go from there...
 				detail: {
-					EMMDetailPane()
+					DetailPane()
 				}
 			)
 			// Maybe adjust, or build a custom one of these later..?

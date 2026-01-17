@@ -11,19 +11,16 @@ import Foundation
 extension EMM.Models {
 	
 	/*
-	 
 	 */
 	/// Namespace for Content Parsing & Extraction. Includes Configurations & Modeling.
 	enum Extraction {
 		
 		/*
-		 
 		 */
 		///
 		struct Extraction {
 			
 			/*
-			 
 			 */
 			///
 			struct Config {

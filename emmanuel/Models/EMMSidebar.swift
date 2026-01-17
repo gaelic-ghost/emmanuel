@@ -7,23 +7,19 @@
 
 import Foundation
 
+/// Extension for...
 extension EMM.Models {
 	
-	// enum...
-	
-	/*
-	 
-	 */
 	///
-	struct Sidebar {
-		
-	}
-	
-	/*
-	 
-	 */
-	///
-	struct SidebarSection {
-		
+	enum Sidebar {
+		///
+		struct Sidebar {
+			/*
+			 */
+			///
+			struct Section {
+				
+			}
+		}
 	}
 }

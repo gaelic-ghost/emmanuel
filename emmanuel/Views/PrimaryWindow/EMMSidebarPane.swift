@@ -9,7 +9,7 @@ import SwiftUI
 
 extension EMM.Views {
 	
-	struct EMMSidebarPane: View {
+	struct SidebarPane: View {
 		var body: some View {
 			Text("Hello, World!")
 			// List()
@@ -20,5 +20,5 @@ extension EMM.Views {
 }
 
 #Preview {
-	EMM.Views.EMMSidebarPane()
+	EMM.Views.SidebarPane()
 }

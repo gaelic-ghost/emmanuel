@@ -9,4 +9,12 @@ import Foundation
 
 extension EMM.Models {
 	
+	///
+	enum Content {
+		
+		///
+		struct Content {
+			
+		}
+	}
 }

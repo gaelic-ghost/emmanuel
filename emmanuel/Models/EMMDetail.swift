@@ -9,13 +9,19 @@ import Foundation
 
 extension EMM.Models {
 	
-	/// For DetailPane
-	struct Detail {
-		// Maybe use Outline/Detail Groups..? Hmmm... Context dependent, probably need to consider a few layouts... this may be left to later down the line once the other views are sorted out and I've though mroe about the semantic similarity modeling and how I wanna implement, store, and potentially host, that, or if i intend to bundle that statically and walk/math it on-device at runtime... this would be easier if I didn't have to worry so mcuh about even the tiniest hosting costs, but w/e...
-	}
+	// TODO: Clean up a lot more of the descriptions and comments.
+	// TODO: Fix other namespacing issues.
 	
-	struct DetailSection {
+	/// A namespace for modeling the detail (trailing) column...
+	enum Detail {
 		
+		/// For DetailPane
+		struct Detail {
+			// Maybe use Outline/Detail Groups..? Hmmm... Context dependent, probably need to consider a few layouts... this may be left to later down the line once the other views are sorted out and I've though mroe about the semantic similarity modeling and how I wanna implement, store, and potentially host, that, or if i intend to bundle that statically and walk/math it on-device at runtime... this would be easier if I didn't have to worry so mcuh about even the tiniest hosting costs, but w/e...
+		
+			struct DetailSection {
+				
+			}
+		}
 	}
-	
 }

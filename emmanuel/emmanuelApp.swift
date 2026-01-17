@@ -57,6 +57,4 @@ struct emmanuelApp: App {
 }
 
 /// The primary namespace for the app and whatnot, idk...
-enum EMM {
-	
-}
+enum EMM {}

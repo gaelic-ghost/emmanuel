@@ -12,7 +12,7 @@ extension EMM.Views {
 	
 	// TODO: Consider tab bar options
 	
-	struct EMMContentPane: View {
+	struct ContentPane: View {
 		var body: some View {
 			Text("Hello, World!")
 		}
@@ -20,5 +20,5 @@ extension EMM.Views {
 }
 
 #Preview {
-	EMM.Views.EMMContentPane()
+	EMM.Views.ContentPane()
 }

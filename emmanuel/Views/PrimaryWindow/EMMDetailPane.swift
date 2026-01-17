@@ -9,7 +9,7 @@ import SwiftUI
 
 extension EMM.Views {
 	
-	struct EMMDetailPane: View {
+	struct DetailPane: View {
 		var body: some View {
 			Text("Hello, World!")
 		}
@@ -17,5 +17,5 @@ extension EMM.Views {
 }
 
 #Preview {
-	EMM.Views.EMMDetailPane()
+	EMM.Views.DetailPane()
 }

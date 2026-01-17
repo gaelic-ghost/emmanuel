@@ -23,15 +23,23 @@ extension EMM.Models {
 	 - SECTION: Reference: The section you go to when you know exactly what you need info on, and what source is gonna give it to you in the way you prefer, but with the nice added context/detail features I wish that the docs or other apps had built-in.
 	 - ITEM:
 	 */
+	
+	/*
+	 */
 	///
-	struct Source {
-		let name: String
-		let URI: URL
-		var displayName: String
-		var isFavorite: Bool
-		var indexForSidebar: Int
-		
+	enum Source {
+		///
+		struct Source {
+			let name: String
+			let URI: URL
+			var displayName: String
+			var isFavorite: Bool
+			var indexForSidebar: Int
+		}
 	}
+	
+	
+	// TODO: Figure this stuff out...
 	
 //	struct Sources {
 //		
