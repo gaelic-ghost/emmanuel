@@ -19,22 +19,27 @@ Eventually, more arch stuff will go here.
 This might get moved below the Arch Heading.
 
 ## A11y Commitment
+
 ### My commitment to making my public code repositories accessible:
+
 If you'd prefer I change something here to enable your contributions, or to ease your navigation of my this codebase, please let me know. I'm happy to accommodate, I know these platforms well, and I'm confident that we'll easily figure something out. I'm crazy enough to think I can solve every problem in tech given the chance, except for the industry's chronic abandonment of accessibility and our community in general. I can make adjustments to whatever you like without much effort.
-### The delay for this brand new repository while I'm housing unstable:
-Given my situation right now, I've had to make a carveout. I needed this to be public asap, so it's a wreck for the moment. I won't be making an inaccessible repo public again, but this was an exception I felt necessary for the time being. I do apologize for this, and I wish I could've cleaned this up beforehand like I'm doing with my local and private repositories before sharing them.
+
+### The exception. A delay for this repository:
+
+Given my situation right now, I've had to make a carveout. I wanted this to be public asap, so it's a bit of a wreck. I won't be making another inaccessible repo public again, but this was an exception I felt necessary. I do apologize.
 
 ## Disclaimers and The Awful State of Things™
-- This is a mess. I am, for the time being, also a mess. If I can get a safe place to crash and basic access to healthcare again, maybe I'll get more of my projects cleaned up and start developing in the open again. At this point it seems unlikely, but them's the breaks with no societal safety net.
-- That said, I do intend to have this shipshape very soon. My eyes and brain are tired of physically hurting to keep learning and working on the stuff I love, so I need some way to read/listen to docs that doesn't physical hurt me or I'm going back to retail or tradework, and I don't really want that.
-- Anyway, if you want a clean, organized look at where this trainwreck is going, check back in a week or so, idk. I feel like shit today, so not much is gonna get done. Sorry not sorry, no pay gets no consistent work, and I can't exactly pay myself.
 
-- When working solo, I just push to origin/main. Unless it's tagged as a release, don't expect to just fork -> clone -> build without errors or issues.
+- This is a mess. I am, for the time being, also a mess. When I can get a safer place to crash and basic access to healthcare again, I'll get more of my projects cleaned up and get back to developing in the open. At this point it seems unlikely, but them's the breaks with no societal safety net.
+- That said, I do intend to have this shipshape very soon. I'm tired of physically hurting to keep learning and working on the stuff I love, so I need some way to read/listen to docs that doesn't physical hurt me or I'm going back to retail or tradework, and I don't really want that.
+- Anyway, if you want a clean, organized look at where this trainwreck is going, check back in a week or two, idk.
+
+- When working solo, I just push to origin/main. So, unless it's tagged as a release, don't expect to fork -> clone -> build without errors or issues.
 - I often use assistive tech, I'm a stuttery mofo, and I will have days I'm way too sick to code or speak or type or some combination of those. Meet me where I'm at, and I bring plenty of skill, patience, and willingness to teach to the table to make up for it.
-- To the tech companies who don't care about AX, you cause untold suffering every day you ignore the millions of us suffering in a world shaped by your inventions and decisions. Do better.
-- I don't expect much interest in this, but if you would like to help out or chat, feel free to reach out. Open an issue, or uhhh, idk. I'll add my DIscord or something here at some point. And I'll flesh out the CONTRIBUTORS.md if that ever becomes relevant.
+- I don't expect much interest in this, but if you would like to help out or chat about cool tech shit, feel free to reach out. Open an issue, I'll add my DIscord or something, etc. I'll flesh out the CONTRIBUTORS.md if that ever becomes relevant.
 TODO: make that filename an md link...
-- Yes, I'm using "Models", "Views", and "Controllers" for SwiftUI (well, hybrid soon). Design patterns are fake anyway, and MVVM grouping is for people who don't care about those of us with disabilities, or with preference for keyboard nav otherwise. I have enough obstacles already, I'm not about to type out an extra four chars all day every day for free to move around your codebase.
+- Yes, I'm using "Models", "Views", and "Controllers" directories for SwiftUI projects, too. Design patterns are sorta fake anyway, and deifning a distinct pattern by prefixing one of the three pillars with the name of one of the other two is insanity. MVVM isn't real, it can't hurt you. Unless you use keyboard nav/search for dirs a lot...
+- And to the tech companies who don't care about AX, you cause untold suffering every day, ignoring the millions of us suffering in a world shaped by your inventions and decisions. Do better.
 
 ## Priorities
 
@@ -50,12 +55,12 @@ TODO: make that filename an md link...
 - Throw together a decent Arch diagram as well, maybe with SwiftCharts to try that out. I've heard it's kinda grabo vs just plotting things in AppKit with math like a caveman, but I wanna know for myself.
 - Spellcheck all of this
 
-## Random other stuff
+### Random other stuff
 
--Build a decent LLM-powered tool to organize stuff like this for me after I write it, according to the way I like to think about coding projects
--finally make a template for this sort of thing that maps to Things.app
--make an importer for that, actually. then add it to the auto-organizer that works in the template
--spellcheck XCSourceEditorExtension or git pre-commit workflow or something. Github Action for it if contributors are ever a thing.
+- Build a decent LLM-powered tool to organize stuff like this for me after I write it, according to the way I like to think about coding projects
+- finally make a template for this sort of thing that maps to Things.app
+- make an importer for that, actually. then add it to the auto-organizer that works in the template
+- spellcheck XCSourceEditorExtension or git pre-commit workflow or something. Github Action for it if contributors are ever a thing.
 
 
 ## Key Specs
@@ -68,7 +73,7 @@ TODO: make that filename an md link...
 
 
 ## Thoughts, brainstorming, ramblings, whatever
-### Should move this over shortly...
+Should move this elsewhere, probably...
 
 - Definitely want good filtering, smart filtering...
 - Will start with manual, but eventually I want "pull from SPM/.xcodeproj" as a feature to grab target/product info and filter based on that...
@@ -82,7 +87,7 @@ TODO: make that filename an md link...
 - TabBar..? Not sure... maybe in the content pane for certain contextx, hideable of course with the usual command...
 - Deatil initially closed... or make it a part of onboarding...
 
-Docs Diff View will be another thing. For docs that have different versions in different places, I'll surface a button to launch that as a new window, with summary of differences as well...
+- Docs Diff View will be another thing. For docs that have different versions in different places, I'll surface a button to launch that as a new window, with summary of differences as well...
 
 - Organizing by topics... though even that needs a number of sub-decisions...
 - COnfigurable to browse by preference... topic, subject, whatever...
@@ -102,7 +107,7 @@ Docs Diff View will be another thing. For docs that have different versions in d
 - Plenty more...
 - Eventually an on-demand, transform-and-(if legal)cache solution similar to Dash.app but not the same DocC output in the same unusable format as everywhere else...
 
-- "Where am I?" button with helpful natlang feedback...
+- "Where am I?" button with helpful natlang feedback... Or maybe unneeded with a decent hierarchy and nav setup...
 - Sections on how things connect together... maybe leverage SymbolKit, SwiftSyntax, SourceKit-LSP, etc from the OSS toolchain...
 - Some nice illusrations of different patterns and how they tend to be used in Cocoa, and SwiftUI... idk...
 - Editorial content on starting with Swift as a user of *insert lang here*. I've ued enough languages that this sound easy enough... I always like docs like that, but wee have nothing of the sort for Swift, which sucks.
@@ -113,10 +118,10 @@ Docs Diff View will be another thing. For docs that have different versions in d
 
 - the initial UI state is the hardest bit to decide on, tbh... maybe a dedicated start page in the content, sidebar open, and then the sidebar has like... ways to navigate things by..? or perhaps an onboarding flow... this will require more daydreaming of designs and flows.
 
-- I'll need to setup testing, prolly Swift Testing and UI tests as well.
+- I'll wanna setup Swift Testing/XCUI.
 Need window behaviors setup, restoration, SceneStorage and AppStorage...
 command sets and handling for a global shortcut through a service or just APp Intents and guiding the user via onboarding to toggle a bundled shortcut to a quick action or whatever else... vocal shortcuts could be useful too...
 - XCKit extension for a smarter version of quick help would also be cool
 or maybe just integrate this, and Swift, more fully with Zed and give up on Apple's increasingly broken attempt at an IDE... Defer that until I go learn Rust.
 - Settings scene w/ a utility window
-- Some interesting thigns are possible with SymbolGraphs and SymbolKit in DocC, but that's down the road probably...
+- Some interesting things possible with swift-syntax, SymbolKit from DocC, etc if I get around to anything like that...
