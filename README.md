@@ -1,4 +1,4 @@
-#  EmM
+#  EmManuel
 Eventually a subtitle will go here.
 
 ## Navigating this Repository
