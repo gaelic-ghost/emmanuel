@@ -8,6 +8,9 @@
 import Foundation
 
 extension EMM.Models {
+	
+	// enum...
+	
 	/*
 	 
 	 */
