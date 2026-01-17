@@ -1,13 +1,13 @@
-#  EmManuel
-Eventually a subtitle will go here.
+#  EmManuæl
+The Missing (electronic, shapeshifting) Manual for using Swift. Whether for Linux, macOS, iOS, or beyond, you're gonna need a guide to be with you.
 
 ## Navigating this Repository
 
-// TODO: -
+Eventually, a guide on navigating the repository will go here.
 
 ## Audio Resources
 
-// TODO: - 
+Eventually, information & guidance on audio resources will go here.
 
 ## Overview
 
@@ -15,6 +15,8 @@ Eventually an "overview" will go here.
 
 ## Architecture Diagrams, Flows, Etc.
 
+Eventually, more arch stuff will go here.
+This might get moved below the Arch Heading.
 
 ## A11y Commitment
 ### My commitment to making my public code repositories accessible:
@@ -22,7 +24,7 @@ If you'd prefer I change something here to enable your contributions, or to ease
 ### The delay for this brand new repository while I'm housing unstable:
 Given my situation right now, I've had to make a carveout. I needed this to be public asap, so it's a wreck for the moment. I won't be making an inaccessible repo public again, but this was an exception I felt necessary for the time being. I do apologize for this, and I wish I could've cleaned this up beforehand like I'm doing with my local and private repositories before sharing them.
 
-## Disclaimers and The Awful State of Things:tm:
+## Disclaimers and The Awful State of Things™
 - This is a mess. I am, for the time being, also a mess. If I can get a safe place to crash and basic access to healthcare again, maybe I'll get more of my projects cleaned up and start developing in the open again. At this point it seems unlikely, but them's the breaks with no societal safety net.
 - That said, I do intend to have this shipshape very soon. My eyes and brain are tired of physically hurting to keep learning and working on the stuff I love, so I need some way to read/listen to docs that doesn't physical hurt me or I'm going back to retail or tradework, and I don't really want that.
 - Anyway, if you want a clean, organized look at where this trainwreck is going, check back in a week or so, idk. I feel like shit today, so not much is gonna get done. Sorry not sorry, no pay gets no consistent work, and I can't exactly pay myself.
