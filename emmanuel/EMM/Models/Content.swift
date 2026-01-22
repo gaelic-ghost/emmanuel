@@ -5,14 +5,13 @@
 //  Created by Gale Williams on 1/16/26.
 //
 
-import Foundation
-
-extension EMM.Models {
+/// Asdf
+extension EMMModel {
 	
-	///
+	/// Asdf
 	enum Content {
 		
-		///
+		/// Asdf
 		struct Content {
 			
 		}

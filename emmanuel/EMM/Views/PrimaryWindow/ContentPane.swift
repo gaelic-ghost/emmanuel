@@ -9,14 +9,15 @@ import SwiftUI
 
 // TODO: Consider tab bar options.
 
-extension EMM.Views {
+///
+extension EMMView {
 	
 	///
 	struct ContentPane: View {
 		
 		// MARK: - ContentPane View Body
 		
-		///
+		/// Asdf
 		var body: some View {
 			Text("Hello, World!")
 		}
@@ -26,5 +27,5 @@ extension EMM.Views {
 // MARK: - ContentPane #Preview
 
 #Preview {
-	EMM.Views.ContentPane()
+	EMMView.ContentPane()
 }

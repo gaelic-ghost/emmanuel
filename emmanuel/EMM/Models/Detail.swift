@@ -5,9 +5,7 @@
 //  Created by Gale Williams on 1/16/26.
 //
 
-import Foundation
-
-extension EMM.Models {
+extension EMMModel {
 	
 	// TODO: Clean up rest of descriptions, comments, namespacing.
 	// TODO: Consider structure, or using SwiftSoup or something already proven...

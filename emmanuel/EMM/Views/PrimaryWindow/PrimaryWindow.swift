@@ -8,7 +8,7 @@
 import SwiftUI
 
 ///
-extension EMM.Views {
+extension EMMView {
 	
 	// TODO: Maybe enum Primary..? Not sure yet...
 	// TODO: needs moar toolbar
@@ -21,7 +21,7 @@ extension EMM.Views {
 		
 		// MARK: - PrimaryWindow Struct Properties
 		
-		typealias SourceModel = EMM.Models.Source
+		typealias SourceModel = EMMModel.Source
 		
 		@State private var columnVisMode: NavigationSplitViewVisibility = .automatic
 		@State private var columnForCompact: NavigationSplitViewColumn = .content
@@ -62,5 +62,5 @@ extension EMM.Views {
 // MARK: - PrimaryWindow #Preview
 
 #Preview {
-	EMM.Views.PrimaryWindow()
+	EMMView.PrimaryWindow()
 }

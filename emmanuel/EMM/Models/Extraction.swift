@@ -5,10 +5,8 @@
 //  Created by Gale Williams on 1/17/26.
 //
 
-import Foundation
-
 /// Extension for...
-extension EMM.Models {
+extension EMMModel {
 	/// Namespace for Content Parsing & Extraction. Includes Configurations & Modeling.
 	enum Extraction {
 		///

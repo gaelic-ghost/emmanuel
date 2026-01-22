@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+
 /// Asdf
-extension EMM.Views {
+extension EMMView {
+	
+	/// Asdf
 	/// Asdf
 	struct DiffPane: View {
 		
@@ -22,5 +25,5 @@ extension EMM.Views {
 // MARK: - DiffPane #Preview
 
 #Preview {
-	EMM.Views.DiffPane()
+	EMMView.DiffPane()
 }

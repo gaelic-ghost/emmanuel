@@ -10,7 +10,7 @@ import SwiftUI
 // TODO: A lot...
 
 /// Asdf
-extension EMM.Views {
+extension EMMView {
 	
 	/// Asdf
 	struct SidebarPane: View {
@@ -30,5 +30,5 @@ extension EMM.Views {
 // MARK: - SidebarPane #Preview
 
 #Preview {
-	EMM.Views.SidebarPane()
+	EMMView.SidebarPane()
 }

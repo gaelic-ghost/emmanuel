@@ -5,10 +5,8 @@
 //  Created by Gale Williams on 1/16/26.
 //
 
-import Foundation
-
 /// Extension for...
-extension EMM.Models {
+extension EMMModel {
 	
 	/// Namespace for modeling the State of an EMM Sidebar
 	enum Sidebar {

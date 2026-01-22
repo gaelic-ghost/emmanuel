@@ -5,10 +5,15 @@
 //  Created by Gale Williams on 1/15/26.
 //
 
+/*
+ Imports:
+ ...
+ ...
+ */
 import Foundation
 
 ///
-extension EMM.Models {
+extension EMMModel {
 	
 	/*
 	 Some thoughts on this:

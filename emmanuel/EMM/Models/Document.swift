@@ -5,10 +5,8 @@
 //  Created by Gale Williams on 1/15/26.
 //
 
-import Foundation
-
 /// Asdf
-extension EMM.Models {
+extension EMMModel {
 	
 	// TODO: COnsider other packages handling this already... Though most seem geared towards generating HTML from Swift, rathe than DOM scripting or parsing HTML...
 	// TODO: Consider SwiftSoup, maybe...

@@ -12,7 +12,8 @@ import SwiftUI
  Prolly keep it three-pane, especially since DocC also has another few places with relevant docs, and details/clarifications could be useful in the Diff view... idk...
  */
 
-extension EMM.Views {
+extension EMMView {
+	
 	/// Asdf
 	struct DiffWindow: View {
 		
@@ -28,5 +29,5 @@ extension EMM.Views {
 // MARK: - DiffWindow #Preview
 
 #Preview {
-	EMM.Views.DiffWindow()
+	EMMView.DiffWindow()
 }

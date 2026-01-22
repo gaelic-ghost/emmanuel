@@ -24,15 +24,14 @@ import SwiftUI
  */
 
 /*
- MUP (Minimum Useful (to me) Product:
+ Minimum Useful (to me) Product (MUP):
  Transofrm and display nearly any arbitrary DocC document from the Apple online Dev Docs. Additionally format for speech synthesis, send text, receive audio sample buffers, play buffers w/ AVFAudio or whatever makes sense. Maybe just hook this into my menubar TTS service. Would be cool to use ExtensionKit to provide a plugin architecture for this... could be for all sorts of docs and shitty inaccessibly websites, but that's down the road...
  */
 
 // TODO: write "accessible software that you can actually rely on" manifesto instead of rambling in my block comments...
 
-/*
- 
- */
+/// Asdf
+/// Asdf
 /// This struct serves as the Main entry point to the EMM Application for macOS.
 @main
 struct emmanuelApp: App {
@@ -41,7 +40,7 @@ struct emmanuelApp: App {
 		
 		/// Primary Root for View Hierarchy. NavSplitView.
 		WindowGroup(id: "browseAround") {
-			EMM.Views.PrimaryWindow()
+			EMMView.PrimaryWindow()
         }
 		/*
 		 This group, or maybe just Window, will be for
@@ -51,7 +50,7 @@ struct emmanuelApp: App {
 		 */
 		// add for: or content:
 		WindowGroup(id: "docDiff") {
-			EMM.Views.DiffWindow()
+			EMMView.DiffWindow()
 		}
     }
 }

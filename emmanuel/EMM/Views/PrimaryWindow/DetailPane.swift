@@ -10,7 +10,7 @@ import SwiftUI
 // TODO: A lot...
 
 /// Asdf
-extension EMM.Views {
+extension EMMView {
 	
 	// MARK: - DetailPane View Body
 	
@@ -25,5 +25,5 @@ extension EMM.Views {
 // MARK: - DetailPane #Preview
 
 #Preview {
-	EMM.Views.DetailPane()
+	EMMView.DetailPane()
 }
