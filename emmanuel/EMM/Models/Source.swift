@@ -1,5 +1,5 @@
 //
-//  EMMSource.swift
+//  Source.swift
 //  emmanuel
 //
 //  Created by Gale Williams on 1/15/26.
@@ -24,11 +24,9 @@ extension EMM.Models {
 	 - ITEM:
 	 */
 	
-	/*
-	 */
-	///
+	/// Asdf
 	enum Source {
-		///
+		/// Asdf
 		struct Source {
 			let name: String
 			let URI: URL

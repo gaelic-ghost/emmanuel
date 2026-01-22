@@ -1,5 +1,5 @@
 //
-//  EMMDocument.swift
+//  Document.swift
 //  emmanuel
 //
 //  Created by Gale Williams on 1/15/26.
@@ -7,13 +7,15 @@
 
 import Foundation
 
+/// Asdf
 extension EMM.Models {
 	
-	// TODO: Fix quick look strings... make them doc comments maybe, idk yet
+	// TODO: COnsider other packages handling this already... Though most seem geared towards generating HTML from Swift, rathe than DOM scripting or parsing HTML...
+	// TODO: Consider SwiftSoup, maybe...
 	
 	// TODO: Think a bit more on this... Not sure how I wanna go about it yet, but some progress is always good...
 	
-	// TODO: Fix this explainer thing up a bit, turn it into markdown or something, idk, make a diagram perhaps, whatever works...
+	// TODO: Fix this explainer up, turn it into markdown or something elsewhere, idk, it's just too in the way rn.
 	
 	// HTML stuff for context:
 	/*
@@ -61,10 +63,6 @@ extension EMM.Models {
 	 <BODY> <- The "Document Body" ends here. This is the end of "visible" content.
 	 
 	 </HTML> <- The "Document" ends here with this "closing" tag.
-	 
-	 
-	 
-	 
 	 
 	 
 	 

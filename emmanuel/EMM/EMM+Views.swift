@@ -1,20 +1,13 @@
 //
-//  EMMViews.swift
+//  EMM+Views.swift
 //  emmanuel
 //
 //  Created by Gale Williams on 1/15/26.
 //
 
-import SwiftUI
-
-///
+/// An extension to...
 extension EMM {
-	
-	/*
-	 
-	 */
 	/// A namespace for EMM SwiftUI Views, etc.
 	enum Views {
-		
 	}
 }

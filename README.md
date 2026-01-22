@@ -26,7 +26,7 @@ If you'd prefer I change something here to enable your contributions, or to ease
 
 ### The exception. A delay for this repository:
 
-Given my situation right now, I've had to make a carveout. I wanted this to be public asap, so it's a bit of a wreck. I won't be making another inaccessible repo public again, but this was an exception I felt necessary. I do apologize.
+Given my situation right now, I've had to make a carveout. I wanted this to be public asap, so it's a bit of a wreck. I do apologize, and I will be correcting this as soon as is practical for me.
 
 ## Disclaimers and The Awful State of Things™
 
@@ -36,10 +36,16 @@ Given my situation right now, I've had to make a carveout. I wanted this to be p
 
 - When working solo, I just push to origin/main. So, unless it's tagged as a release, don't expect to fork -> clone -> build without errors or issues.
 - I often use assistive tech, I'm a stuttery mofo, and I will have days I'm way too sick to code or speak or type or some combination of those. Meet me where I'm at, and I bring plenty of skill, patience, and willingness to teach to the table to make up for it.
-- I don't expect much interest in this, but if you would like to help out or chat about cool tech shit, feel free to reach out. Open an issue, I'll add my DIscord or something, etc. I'll flesh out the CONTRIBUTORS.md if that ever becomes relevant.
-TODO: make that filename an md link...
-- Yes, I'm using "Models", "Views", and "Controllers" directories for SwiftUI projects, too. Design patterns are sorta fake anyway, and deifning a distinct pattern by prefixing one of the three pillars with the name of one of the other two is insanity. MVVM isn't real, it can't hurt you. Unless you use keyboard nav/search for dirs a lot...
-- And to the tech companies who don't care about AX, you cause untold suffering every day, ignoring the millions of us suffering in a world shaped by your inventions and decisions. Do better.
+- I don't expect much interest in this, but if you would like to help out or chat about cool tech shit, feel free to reach out. Open an issue, I'll add my Discord or something, etc. I'll flesh out the CONTRIBUTORS.md if that ever becomes relevant.
+
+## Key Specs
+
+- Structure is mainly divided into the directory 'EMM/' which houses models, controllers, and views. And then the App and AppDeleate files.
+- Targeting macOS 26 for fast MVP with new WebKit stuff, multiplatform soon-ish, then consider backporting with WKWebView and whatnot.
+- Will toss in SwiftData or Core Data synced w/ CloudKit for stuff like local caching to avoid getting bankrupted by hosting costs if anybody else finds this useful.
+- I intend to keep this OSS.
+- I am Intending to ship a version of this to the App Store at some point to try to support continued development.
+- Eventually, I'd like this to become a next-gen edu platform for logic, automation, etc, using a widely-applicable and "initially easy, then stupidly deep" language like Swift as the basis for that. If that comes to pass, that functionality may be developed in a closed-source fork, assuming that remains the only way to support anything in tech by then.
 
 ## Priorities
 
@@ -55,22 +61,12 @@ TODO: make that filename an md link...
 - Throw together a decent Arch diagram as well, maybe with SwiftCharts to try that out. I've heard it's kinda grabo vs just plotting things in AppKit with math like a caveman, but I wanna know for myself.
 - Spellcheck all of this
 
-### Random other stuff
+### Random other stuff, repo tasks, idk
 
 - Build a decent LLM-powered tool to organize stuff like this for me after I write it, according to the way I like to think about coding projects
 - finally make a template for this sort of thing that maps to Things.app
 - make an importer for that, actually. then add it to the auto-organizer that works in the template
 - spellcheck XCSourceEditorExtension or git pre-commit workflow or something. Github Action for it if contributors are ever a thing.
-
-
-## Key Specs
-
-- Targeting macOS 26 for fast MVP with new WebKit stuff, multiplatform soon-ish, then consider backporting with WKWebView and whatnot.
-- Will toss in SwiftData or Core Data synced w/ CloudKit to avoid getting bankrupted by hosting costs if anybody else ever finds this useful.
-- Intending to ship to the App Store after iOS/iCloud support is setup.
-- Likely charge a couple bucks one-time purchase. I need accessible docs for myself no matter what, so I'm more concerned about a bit of rev to stay afloat long enough to get something else going, less than zero reason to care about the long-term yet.
-- If this someday become the massive, next-gen edu/productivity ecosystem I wish I'd had trying to learn any of this myself, then I guess I'll need to revisit the pricing model at that point.
-
 
 ## Thoughts, brainstorming, ramblings, whatever
 Should move this elsewhere, probably...
@@ -92,7 +88,7 @@ Should move this elsewhere, probably...
 - Organizing by topics... though even that needs a number of sub-decisions...
 - COnfigurable to browse by preference... topic, subject, whatever...
 
-###Major sources to support (incomplete list):
+### Major sources to support (incomplete list):
 - APple Dev Docs
 - Apple Design HIG
 - Apple Docs Archive
@@ -107,7 +103,7 @@ Should move this elsewhere, probably...
 - Plenty more...
 - Eventually an on-demand, transform-and-(if legal)cache solution similar to Dash.app but not the same DocC output in the same unusable format as everywhere else...
 
-- "Where am I?" button with helpful natlang feedback... Or maybe unneeded with a decent hierarchy and nav setup...
+- "Where am I?" button with helpful natlang feedback... This is likely unneeded with a decent hierarchy and nav setup, which is half the point of this, but could still be useful in other ways...
 - Sections on how things connect together... maybe leverage SymbolKit, SwiftSyntax, SourceKit-LSP, etc from the OSS toolchain...
 - Some nice illusrations of different patterns and how they tend to be used in Cocoa, and SwiftUI... idk...
 - Editorial content on starting with Swift as a user of *insert lang here*. I've ued enough languages that this sound easy enough... I always like docs like that, but wee have nothing of the sort for Swift, which sucks.
@@ -115,8 +111,6 @@ Should move this elsewhere, probably...
 - quick search in a menubarextra with voice search, too...
 - integration with spotlight, of course...
 - voice-only interface with natlang analysis of syntax and snippets because it's 2026 and I demand usability
-
-- the initial UI state is the hardest bit to decide on, tbh... maybe a dedicated start page in the content, sidebar open, and then the sidebar has like... ways to navigate things by..? or perhaps an onboarding flow... this will require more daydreaming of designs and flows.
 
 - I'll wanna setup Swift Testing/XCUI.
 Need window behaviors setup, restoration, SceneStorage and AppStorage...

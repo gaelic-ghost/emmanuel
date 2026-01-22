@@ -1,5 +1,5 @@
 //
-//  EMMContent.swift
+//  Content.swift
 //  emmanuel
 //
 //  Created by Gale Williams on 1/16/26.
